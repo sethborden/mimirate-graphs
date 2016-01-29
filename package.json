@@ -1,0 +1,20 @@
+{
+  "name": "mimirate-graphs",
+  "version": "1.0.0",
+  "description": "d3 charts for fun with histograms and cashflow!",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sethborden/mimirate-graphs.git"
+  },
+  "author": "Seth Borden",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sethborden/mimirate-graphs/issues"
+  },
+  "homepage": "https://github.com/sethborden/mimirate-graphs"
+}

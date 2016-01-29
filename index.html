@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gaussian Tester</title>
+    <style>
+      .background {
+          fill: #fdf6e3;
+      }
+
+      .axis {
+          fill: white;
+      }
+
+      .axis path, .axis line {
+          shape-rendering: crispEdges;
+          stroke: #333;
+          stroke-width: 2;
+      }
+
+      .axis text {
+          font-size: 12;
+          font-weight: 600;
+          font-family: Arial;
+          fill: #333;
+      }
+    </style>
+</head>
+<body>
+<span id="vis"></span>
+<span id="vis2"></span>
+<span id="vis3"></span>
+<div>
+    <input id="input" type="text" />
+    <button id="add">Add</button>
+    <button id="stop">Stop</button>
+</div>
+<script src="bower_components/lodash/lodash.min.js"></script>
+<script src="bower_components/d3/d3.js"></script>
+<script src="bower_components/d3.chart/d3.chart.js"></script>
+<script src="gaussian.js"></script>
+<script src="cashflow.js"></script>
+</body>
+</html>
